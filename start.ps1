@@ -10,11 +10,11 @@ if(Test-Path "bin\php\php.exe"){
 }
 
 if(Test-Path "EonMine.phar"){
-	$file = "Apollo.phar"
+	$file = "EonMine.phar"
 }elseif(Test-Path "src\pocketmine\PocketMine.php"){
 	$file = "src\pocketmine\PocketMine.php"
-}elseif(Test-Path "SpigotPE.phar"){
-	echo "hey you are using a old version we are now Apollo!"
+}elseif(Test-Path "Eon.phar"){
+	echo "Welcome to EonMine"
 	pause
 	exit 1
 }else{
